@@ -1,21 +1,37 @@
 import { StyleSheet } from 'react-native';
 
 var Style = StyleSheet.create({
-   container: {
-    flex: 1,
-    justifyContent: 'center',
-    alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+   animatedContainer: {
+    alignItems: "center",
+    justifyContent: "center"
   },
-  welcome: {
-    fontSize: 20,
-    textAlign: 'center',
-    margin: 10,
+  temperature: {
+    fontSize: 62,
+    fontWeight: "100",
+    margin: 0
   },
-  instructions: {
-    textAlign: 'center',
-    color: '#333333',
-    marginBottom: 5,
+  location: {
+    fontSize: 14,
+    fontWeight: "100",
+    marginBottom: 20,
   },
+  weatherType: {
+    fontSize: 34,
+    fontWeight: "500"
+  },
+  input: {
+    borderWidth: 1,
+    borderColor: "#666",
+    height: 40,
+    marginVertical: 20,
+    marginHorizontal: 20,
+    paddingHorizontal: 10,
+    borderRadius: 5
+  },
+  icon: {
+    fontFamily: 'WeatherIcons-Regular',
+    fontSize: 130,
+    padding: 0
+  }
 });
 export default Style;
